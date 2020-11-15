@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+}
+/*---------------------------MENU---------------------------*/
+.SideBar{
+    width: 20%;
+    height: 100vh;
+    float: left;
+    background-color: black;
+    color:white;
+}
+
+.SideBar ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+.SideBar li{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+.SideBar p{
+    color:white;
+    display: block;
+}
+
+.Nav11{
+    margin:25px;
+}
+/*------------------------------------------- BLOQUE NUMERO 1 --------------------------------------*/
+.top{
+    width: 100%;
+    display: block;
+}
+
+.username{
+    width: 60%;
+    float: left;
+    text-align: center;
+    color:white;
+    margin-bottom: 25px;
+}
+
+.btn-logout{
+    float: left;
+    width: 40%;
+    background: transparent;
+    color:white;
+    border:none;
+    margin-bottom: 25px;
+}
+/*------------------------------------------- BLOQUE NUMERO 2 --------------------------------------*/
+.searchUser{
+    width: 100%;
+    display: block;
+}
+
+.textsearch{
+    width: 100%;
+    float: left;
+    color: white;
+    background: transparent;
+    border:none;
+    border-bottom: 3px solid white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 7px;
+}
+
+.textsearch::placeholder{
+    text-align: center;
+}
+
+.textsearch:focus{
+    background:transparent;
+    color:white;
+}
+
+.butone{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background:  #A8251D;
+    padding:7px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.butone:focus{
+    border-style: none;
+}
+
+.filt{
+    width: 100%;
+    display: block;
+}
+
+.namelabel{
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.fltBox{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color:white;
+    
+}
+
+.fltBox option{
+    background-color: black;
+    border:none;
+    padding: 10px;
+}
+
+option:hover{
+    background-color: gray;
+    padding: 10px;
+}
+option:focus{
+    background: none;
+    padding: 10px;
+}
+/*------------------------------------------- BLOQUE NUMERO 3 --------------------------------------*/
+.general{
+    /*width: 1242px;*/
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.card{
+    width:18rem;
+    margin: 25px;
+}
+
+@media screen and (max-width:375px) {
+    .SideBar{
+        width: 100%;
+        height: 60%;
+        float: left;
+        display: block;
+    }
+    .general{
+        display: block;
+        width: 100%;
+        height: 40%;
+        float: right;
+    } 
+    .card{
+        display: block;
+        width:18rem;
+        margin: 25px;
+    }
+}    
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+
+}
+/*Estilo del contenedor del registro*/
+.principal-box{
+    border-radius: 15px;
+    padding: 20px 40px;
+    width: 35%;
+    height: 90%;
+    background-color: black;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color:white;
+}
+
+
+/*Estilo general de los input*/
+.inputEmail, .inputPais, .inputCargo, .inputDispositivos, .inputMac{
+    width: 100%;
+    border-bottom:  3px solid white;
+    display: block;
+}
+/*Estilo de los label*/
+.input-group-prepend{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+
+.input-group-text{
+    background: transparent;
+    margin:0;
+    padding: 0;
+    border: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color:white;
+}
+/*Texto fijo de @xumak.com*/
+.input-group-text2{
+    padding: 7px;
+    font-family: Helvetica;
+}
+/*Estilo de los input  (EMAIL, USERNAME Y DIRECCION MAC)*/
+.form-control{
+    background: transparent;
+    padding: 6px;
+    border:none;
+    color:white;
+    font-family: Helvetica;
+}
+
+.form-control:focus{
+    background-color: black;
+    color:white;
+}
+/*Estilo de los selects*/
+.custom-select{
+    color:white;
+    font-family: Helvetica;
+    background-color: black;
+    border:none;
+}
+
+/*CAMPO DE USUARIO ESTILO*/
+.div-user{
+    width: 70%;
+    float: left;
+    border-bottom:  3px solid white;
+}
+
+.input-group-append{
+    width: 30%;
+    float: left;
+    border-bottom:  3px solid white;    
+}
+/*estilo check buttom*/
+.Opcion1, .Opcion2{
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    border-bottom:  3px solid white;
+    padding: 5.4px;
+}
+
+.input-group-prepend11{
+    width: 60%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    border-bottom:  3px solid white;
+    padding: 6px;
+}
+
+.div-personal{
+    width: 100%;
+    display: block;
+}
+
+.btn-submit{
+    border:none;
+    background-color: #A8251D;
+    font-size: 18px;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+}
+/* NO LO ELIMINES */
+.btn-submit:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.form-control:disabled{
+    background-color: transparent;
+}
+/* NO LO ELIMINES  */
+/*--------------------- RESPONSIVE ------------------*/
+
+@media screen and (max-width:1200px) {
+    .principal-box{
+        width: 40%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:1024px) {
+    .principal-box{
+        width: 60%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:1000px) {
+    .principal-box{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:770px) {
+    .principal-box{
+        width: 65%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:640px) {
+    .principal-box{
+        width: 70%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:610px) {
+    .principal-box{
+        width: 75%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:560px) {
+    .principal-box{
+        width: 80%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:530px) {
+    .principal-box{
+        width: 90%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:470px) {
+    .principal-box{
+        width: 95%;
+    }
+    .form{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:440px) {
+    .principal-box{
+        width: 95%;
+    }
+    .form{
+        width: 100%;
+    } 
+    .div-user{
+        width: 60%;
+        float: left;
+    }
+    .input-group-append{
+        width: 40%;
+        float: right;
+    }
+
+    /*estilo check buttom*/
+.Opcion1, .Opcion2{
+    width: 15%;
+    float: left;
+    margin-top: 20px;
+    border-bottom:  3px solid white;
+    padding: 5.4px;
+}
+
+.input-group-prepend11{
+    width: 70%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    border-bottom:  3px solid white;
+    padding: 6px;
+}
+}
+

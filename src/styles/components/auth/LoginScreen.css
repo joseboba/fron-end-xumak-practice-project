@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+
+.login-box{
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    color:white;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+    border-radius: 10px;
+}
+
+.img-p{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Verdana;
+    display: block;
+}
+
+.login-box h1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin-bottom: 30px;
+    padding: 0;
+    margin: 0 0 25px;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.login-box input[type="text"], input[type="password"]{
+    border:none;
+    background: none;
+    border-bottom:  5px solid white;
+    background: transparent;
+}
+
+.btn-submit{
+    text-align: center;
+    border:none;
+    background-color: #A8251D;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color:white;
+    width: 1000%;
+    float: left;
+}
+
+/* NO LO ELIMINES */ /*--VA XD--*/ 
+.link{
+    text-align: center;   
+    background-color: #A8251D;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    float: left;
+}
+
+.link:hover{
+    color: black;
+}
+
+hr{
+    background-color: white;
+}
+
+/* NO LO ELIMINES */

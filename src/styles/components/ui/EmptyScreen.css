@@ -1,0 +1,17 @@
+.contenido-b{
+    top:50%;
+    left: 62%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: 'Fredoka One', cursive;
+}
+
+.img-search{
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    font-size: 35px;
+    color: black;
+}

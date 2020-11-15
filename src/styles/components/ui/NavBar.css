@@ -1,0 +1,37 @@
+.navbar navbar-expand-lg navbar-light bg-light{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Sora', sans-serif;
+}
+
+.collapse navbar-collapse{
+    width: 50%;
+    float: right;
+    align-items: right;
+}
+.buttonP1{
+    text-align: right;
+    float: right;
+    margin-left: 28%;
+}
+
+.navbar-nav{
+    width: 100;
+    float: right;
+    align-items: right;
+}
+.nav-link{
+    padding: 5px;
+    width: 200px;
+    float: right;
+    align-items: right;
+    background: transparent;
+    border:none;
+    color: black;
+}
